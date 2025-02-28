@@ -16,5 +16,20 @@ namespace LojaABC
         {
             InitializeComponent();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
