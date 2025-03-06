@@ -108,7 +108,7 @@ namespace LojaABC
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(173, 230);
             this.button4.TabIndex = 7;
-            this.button4.Text = "&Relatório";
+            this.button4.Text = "&Fornecedores";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -137,7 +137,7 @@ namespace LojaABC
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(173, 230);
             this.button6.TabIndex = 5;
-            this.button6.Text = "&Configuração";
+            this.button6.Text = "&Relatórios";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button6.UseVisualStyleBackColor = true;
             // 
