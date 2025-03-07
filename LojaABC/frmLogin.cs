@@ -31,5 +31,22 @@ namespace LojaABC
         {
             Application.Exit();
         }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            frmMenuPrincipal abrir = new frmMenuPrincipal();
+            abrir.Show();
+            this.Hide();
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pctLogo_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

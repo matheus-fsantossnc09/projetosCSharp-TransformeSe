@@ -43,12 +43,13 @@ namespace LojaABC
             // pctLogo
             // 
             this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
-            this.pctLogo.Location = new System.Drawing.Point(41, 80);
+            this.pctLogo.Location = new System.Drawing.Point(33, 103);
             this.pctLogo.Name = "pctLogo";
             this.pctLogo.Size = new System.Drawing.Size(250, 399);
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
+            this.pctLogo.Click += new System.EventHandler(this.pctLogo_Click);
             // 
             // lblUsuario
             // 
@@ -100,6 +101,7 @@ namespace LojaABC
             this.btnEntrar.TabIndex = 2;
             this.btnEntrar.Text = "&Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btnSair
             // 
@@ -130,6 +132,7 @@ namespace LojaABC
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LojaABC - Login";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

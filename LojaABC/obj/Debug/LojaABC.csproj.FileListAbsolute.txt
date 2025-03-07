@@ -11,3 +11,4 @@ C:\Users\matheus.fsantos72\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj
 C:\Users\matheus.fsantos72\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.frmLogin.resources
 C:\Users\matheus.fsantos72\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.frmMenuPrincipal.resources
 C:\Users\matheus.fsantos72\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.frmFuncionarios.resources
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.frmPesquisarFuncionarios.resources
