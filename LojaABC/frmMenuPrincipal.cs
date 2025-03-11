@@ -26,5 +26,10 @@ namespace LojaABC
         {
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
