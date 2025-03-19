@@ -17,15 +17,6 @@ namespace LojaABC
             InitializeComponent();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnSair_Click(object sender, EventArgs e)
         {
@@ -34,19 +25,50 @@ namespace LojaABC
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            frmMenuPrincipal abrir = new frmMenuPrincipal();
-            abrir.Show();
-            this.Hide();
-        }
+            string usuario, senha;
 
-        private void frmLogin_Load(object sender, EventArgs e)
-        {
+            usuario = txtUsuario.Text;
+            senha = txtSenha.Text;
 
-        }
-
-        private void pctLogo_Click(object sender, EventArgs e)
-        {
+           if(usuario.Equals("senac")&&senha.Equals("12345"))
+            {
+                frmMenuPrincipal abrir = new frmMenuPrincipal();
+                abrir.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("O usuário ou senha inálida",
+                    "Mensagem do sistem",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1);
+                limparCampos();
+                    
+            }
             
+        }
+        public void limparCampos()
+        {
+            txtUsuario.Clear();
+            txtSenha.Clear();
+            txtUsuario.Focus();
+        }
+
+        private void txtUsuario_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                txtSenha.Focus();
+            }
+        }
+
+        private void txtSenha_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnEntrar.Focus();
+            }
         }
     }
 }
