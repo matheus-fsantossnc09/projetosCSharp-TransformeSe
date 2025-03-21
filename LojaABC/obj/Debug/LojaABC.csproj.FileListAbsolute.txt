@@ -26,3 +26,4 @@ C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\LojaABC\
 C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\LojaABC\obj\Debug\LojaABC.csproj.CoreCompileInputs.cache
 C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\LojaABC\obj\Debug\LojaABC.exe
 C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\LojaABC\obj\Debug\LojaABC.pdb
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\LojaABC\obj\Debug\LojaABC.frmSobreNos.resources

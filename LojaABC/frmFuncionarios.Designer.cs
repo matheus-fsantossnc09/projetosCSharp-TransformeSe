@@ -107,7 +107,7 @@ namespace LojaABC
             this.mskCelular.Margin = new System.Windows.Forms.Padding(4);
             this.mskCelular.Mask = "99999-9999";
             this.mskCelular.Name = "mskCelular";
-            this.mskCelular.Size = new System.Drawing.Size(145, 30);
+            this.mskCelular.Size = new System.Drawing.Size(145, 26);
             this.mskCelular.TabIndex = 6;
             // 
             // lblCelular
@@ -116,7 +116,7 @@ namespace LojaABC
             this.lblCelular.Location = new System.Drawing.Point(339, 175);
             this.lblCelular.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCelular.Name = "lblCelular";
-            this.lblCelular.Size = new System.Drawing.Size(74, 25);
+            this.lblCelular.Size = new System.Drawing.Size(58, 20);
             this.lblCelular.TabIndex = 16;
             this.lblCelular.Text = "Celular";
             // 
@@ -140,7 +140,7 @@ namespace LojaABC
             this.rbtFeminino.Location = new System.Drawing.Point(8, 25);
             this.rbtFeminino.Margin = new System.Windows.Forms.Padding(4);
             this.rbtFeminino.Name = "rbtFeminino";
-            this.rbtFeminino.Size = new System.Drawing.Size(113, 29);
+            this.rbtFeminino.Size = new System.Drawing.Size(92, 24);
             this.rbtFeminino.TabIndex = 8;
             this.rbtFeminino.TabStop = true;
             this.rbtFeminino.Text = "Feminino";
@@ -152,7 +152,7 @@ namespace LojaABC
             this.rbtNaoDesejoInformar.Location = new System.Drawing.Point(8, 98);
             this.rbtNaoDesejoInformar.Margin = new System.Windows.Forms.Padding(4);
             this.rbtNaoDesejoInformar.Name = "rbtNaoDesejoInformar";
-            this.rbtNaoDesejoInformar.Size = new System.Drawing.Size(207, 29);
+            this.rbtNaoDesejoInformar.Size = new System.Drawing.Size(169, 24);
             this.rbtNaoDesejoInformar.TabIndex = 10;
             this.rbtNaoDesejoInformar.TabStop = true;
             this.rbtNaoDesejoInformar.Text = "Não desejo informar";
@@ -164,7 +164,7 @@ namespace LojaABC
             this.rbtMasculino.Location = new System.Drawing.Point(8, 62);
             this.rbtMasculino.Margin = new System.Windows.Forms.Padding(4);
             this.rbtMasculino.Name = "rbtMasculino";
-            this.rbtMasculino.Size = new System.Drawing.Size(122, 29);
+            this.rbtMasculino.Size = new System.Drawing.Size(98, 24);
             this.rbtMasculino.TabIndex = 9;
             this.rbtMasculino.TabStop = true;
             this.rbtMasculino.Text = "Masculino";
@@ -176,7 +176,7 @@ namespace LojaABC
             this.dtpDataNascimento.Location = new System.Drawing.Point(201, 234);
             this.dtpDataNascimento.Margin = new System.Windows.Forms.Padding(4);
             this.dtpDataNascimento.Name = "dtpDataNascimento";
-            this.dtpDataNascimento.Size = new System.Drawing.Size(139, 30);
+            this.dtpDataNascimento.Size = new System.Drawing.Size(139, 26);
             this.dtpDataNascimento.TabIndex = 5;
             // 
             // lblDataNascimento
@@ -185,7 +185,7 @@ namespace LojaABC
             this.lblDataNascimento.Location = new System.Drawing.Point(20, 234);
             this.lblDataNascimento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDataNascimento.Name = "lblDataNascimento";
-            this.lblDataNascimento.Size = new System.Drawing.Size(158, 25);
+            this.lblDataNascimento.Size = new System.Drawing.Size(130, 20);
             this.lblDataNascimento.TabIndex = 9;
             this.lblDataNascimento.Text = "Data nascimento";
             // 
@@ -195,7 +195,7 @@ namespace LojaABC
             this.mskCPF.Margin = new System.Windows.Forms.Padding(4);
             this.mskCPF.Mask = "999,999,999-99";
             this.mskCPF.Name = "mskCPF";
-            this.mskCPF.Size = new System.Drawing.Size(176, 30);
+            this.mskCPF.Size = new System.Drawing.Size(176, 26);
             this.mskCPF.TabIndex = 4;
             // 
             // lblCPF
@@ -204,7 +204,7 @@ namespace LojaABC
             this.lblCPF.Location = new System.Drawing.Point(20, 171);
             this.lblCPF.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCPF.Name = "lblCPF";
-            this.lblCPF.Size = new System.Drawing.Size(52, 25);
+            this.lblCPF.Size = new System.Drawing.Size(40, 20);
             this.lblCPF.TabIndex = 6;
             this.lblCPF.Text = "CPF";
             // 
@@ -214,7 +214,7 @@ namespace LojaABC
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.MaxLength = 50;
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(500, 30);
+            this.txtEmail.Size = new System.Drawing.Size(500, 26);
             this.txtEmail.TabIndex = 3;
             // 
             // lblEmail
@@ -223,7 +223,7 @@ namespace LojaABC
             this.lblEmail.Location = new System.Drawing.Point(20, 118);
             this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(60, 25);
+            this.lblEmail.Size = new System.Drawing.Size(48, 20);
             this.lblEmail.TabIndex = 4;
             this.lblEmail.Text = "Email";
             // 
@@ -233,7 +233,7 @@ namespace LojaABC
             this.txtNome.Margin = new System.Windows.Forms.Padding(4);
             this.txtNome.MaxLength = 50;
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(472, 30);
+            this.txtNome.Size = new System.Drawing.Size(472, 26);
             this.txtNome.TabIndex = 2;
             // 
             // lblNome
@@ -242,7 +242,7 @@ namespace LojaABC
             this.lblNome.Location = new System.Drawing.Point(361, 52);
             this.lblNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(64, 25);
+            this.lblNome.Size = new System.Drawing.Size(51, 20);
             this.lblNome.TabIndex = 2;
             this.lblNome.Text = "Nome";
             // 
@@ -253,7 +253,7 @@ namespace LojaABC
             this.txtCodigo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigo.MaxLength = 10;
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(245, 30);
+            this.txtCodigo.Size = new System.Drawing.Size(245, 26);
             this.txtCodigo.TabIndex = 1;
             // 
             // lblCodigo
@@ -262,7 +262,7 @@ namespace LojaABC
             this.lblCodigo.Location = new System.Drawing.Point(20, 55);
             this.lblCodigo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(75, 25);
+            this.lblCodigo.Size = new System.Drawing.Size(59, 20);
             this.lblCodigo.TabIndex = 0;
             this.lblCodigo.Text = "Código";
             // 
@@ -285,7 +285,7 @@ namespace LojaABC
             // btnVoltar
             // 
             this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
-            this.btnVoltar.Location = new System.Drawing.Point(863, 4);
+            this.btnVoltar.Location = new System.Drawing.Point(835, 4);
             this.btnVoltar.Margin = new System.Windows.Forms.Padding(4);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(147, 60);
@@ -298,7 +298,7 @@ namespace LojaABC
             // btnPesquisar
             // 
             this.btnPesquisar.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisar.Image")));
-            this.btnPesquisar.Location = new System.Drawing.Point(712, 4);
+            this.btnPesquisar.Location = new System.Drawing.Point(684, 4);
             this.btnPesquisar.Margin = new System.Windows.Forms.Padding(4);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(143, 60);
@@ -311,7 +311,7 @@ namespace LojaABC
             // btnLimpar
             // 
             this.btnLimpar.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpar.Image")));
-            this.btnLimpar.Location = new System.Drawing.Point(576, 4);
+            this.btnLimpar.Location = new System.Drawing.Point(549, 2);
             this.btnLimpar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(127, 64);
@@ -319,11 +319,12 @@ namespace LojaABC
             this.btnLimpar.Text = "&Limpar";
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnExcluir
             // 
             this.btnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluir.Image")));
-            this.btnExcluir.Location = new System.Drawing.Point(436, 4);
+            this.btnExcluir.Location = new System.Drawing.Point(408, 4);
             this.btnExcluir.Margin = new System.Windows.Forms.Padding(4);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(127, 60);
@@ -335,7 +336,7 @@ namespace LojaABC
             // btnAlterar
             // 
             this.btnAlterar.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterar.Image")));
-            this.btnAlterar.Location = new System.Drawing.Point(296, 4);
+            this.btnAlterar.Location = new System.Drawing.Point(270, 4);
             this.btnAlterar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(127, 60);
@@ -348,7 +349,7 @@ namespace LojaABC
             // 
             this.btnCadastrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrar.Image")));
             this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadastrar.Location = new System.Drawing.Point(155, 4);
+            this.btnCadastrar.Location = new System.Drawing.Point(135, 4);
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(127, 60);
@@ -356,6 +357,7 @@ namespace LojaABC
             this.btnCadastrar.Text = "&Cadastrar";
             this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // btnNovo
             // 
@@ -369,6 +371,7 @@ namespace LojaABC
             this.btnNovo.Text = "&Novo";
             this.btnNovo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // gpbEndereco
             // 
@@ -399,7 +402,7 @@ namespace LojaABC
             // cbbUF
             // 
             this.cbbUF.FormattingEnabled = true;
-            this.cbbUF.ItemHeight = 25;
+            this.cbbUF.ItemHeight = 20;
             this.cbbUF.Items.AddRange(new object[] {
             "AC",
             "",
@@ -457,7 +460,7 @@ namespace LojaABC
             this.cbbUF.Location = new System.Drawing.Point(57, 150);
             this.cbbUF.Margin = new System.Windows.Forms.Padding(4);
             this.cbbUF.Name = "cbbUF";
-            this.cbbUF.Size = new System.Drawing.Size(205, 33);
+            this.cbbUF.Size = new System.Drawing.Size(205, 28);
             this.cbbUF.TabIndex = 18;
             // 
             // lblUF
@@ -466,7 +469,7 @@ namespace LojaABC
             this.lblUF.Location = new System.Drawing.Point(8, 150);
             this.lblUF.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUF.Name = "lblUF";
-            this.lblUF.Size = new System.Drawing.Size(38, 25);
+            this.lblUF.Size = new System.Drawing.Size(31, 20);
             this.lblUF.TabIndex = 12;
             this.lblUF.Text = "UF";
             // 
@@ -476,7 +479,7 @@ namespace LojaABC
             this.txtEstado.Margin = new System.Windows.Forms.Padding(4);
             this.txtEstado.MaxLength = 10;
             this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(80, 30);
+            this.txtEstado.Size = new System.Drawing.Size(80, 26);
             this.txtEstado.TabIndex = 17;
             // 
             // lblEstado
@@ -485,7 +488,7 @@ namespace LojaABC
             this.lblEstado.Location = new System.Drawing.Point(781, 110);
             this.lblEstado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(73, 25);
+            this.lblEstado.Size = new System.Drawing.Size(60, 20);
             this.lblEstado.TabIndex = 10;
             this.lblEstado.Text = "Estado";
             // 
@@ -495,7 +498,7 @@ namespace LojaABC
             this.txtCidade.Margin = new System.Windows.Forms.Padding(4);
             this.txtCidade.MaxLength = 100;
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(304, 30);
+            this.txtCidade.Size = new System.Drawing.Size(304, 26);
             this.txtCidade.TabIndex = 16;
             // 
             // lblCidade
@@ -504,7 +507,7 @@ namespace LojaABC
             this.lblCidade.Location = new System.Drawing.Point(381, 106);
             this.lblCidade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCidade.Name = "lblCidade";
-            this.lblCidade.Size = new System.Drawing.Size(75, 25);
+            this.lblCidade.Size = new System.Drawing.Size(59, 20);
             this.lblCidade.TabIndex = 8;
             this.lblCidade.Text = "Cidade";
             // 
@@ -514,7 +517,7 @@ namespace LojaABC
             this.txtComplemento.Margin = new System.Windows.Forms.Padding(4);
             this.txtComplemento.MaxLength = 100;
             this.txtComplemento.Name = "txtComplemento";
-            this.txtComplemento.Size = new System.Drawing.Size(212, 30);
+            this.txtComplemento.Size = new System.Drawing.Size(212, 26);
             this.txtComplemento.TabIndex = 15;
             // 
             // lblComplemento
@@ -523,7 +526,7 @@ namespace LojaABC
             this.lblComplemento.Location = new System.Drawing.Point(8, 106);
             this.lblComplemento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblComplemento.Name = "lblComplemento";
-            this.lblComplemento.Size = new System.Drawing.Size(134, 25);
+            this.lblComplemento.Size = new System.Drawing.Size(108, 20);
             this.lblComplemento.TabIndex = 6;
             this.lblComplemento.Text = "Complemento";
             // 
@@ -533,7 +536,7 @@ namespace LojaABC
             this.txtNumero.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumero.MaxLength = 10;
             this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(143, 30);
+            this.txtNumero.Size = new System.Drawing.Size(143, 26);
             this.txtNumero.TabIndex = 14;
             // 
             // lblNumero
@@ -542,7 +545,7 @@ namespace LojaABC
             this.lblNumero.Location = new System.Drawing.Point(733, 59);
             this.lblNumero.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(81, 25);
+            this.lblNumero.Size = new System.Drawing.Size(65, 20);
             this.lblNumero.TabIndex = 4;
             this.lblNumero.Text = "Número";
             // 
@@ -552,7 +555,7 @@ namespace LojaABC
             this.mskCEP.Margin = new System.Windows.Forms.Padding(4);
             this.mskCEP.Mask = "99999-999";
             this.mskCEP.Name = "mskCEP";
-            this.mskCEP.Size = new System.Drawing.Size(133, 30);
+            this.mskCEP.Size = new System.Drawing.Size(133, 26);
             this.mskCEP.TabIndex = 13;
             // 
             // lblCEP
@@ -561,7 +564,7 @@ namespace LojaABC
             this.lblCEP.Location = new System.Drawing.Point(528, 59);
             this.lblCEP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCEP.Name = "lblCEP";
-            this.lblCEP.Size = new System.Drawing.Size(53, 25);
+            this.lblCEP.Size = new System.Drawing.Size(41, 20);
             this.lblCEP.TabIndex = 2;
             this.lblCEP.Text = "CEP";
             // 
@@ -571,7 +574,7 @@ namespace LojaABC
             this.txtLografouro.Margin = new System.Windows.Forms.Padding(4);
             this.txtLografouro.MaxLength = 100;
             this.txtLografouro.Name = "txtLografouro";
-            this.txtLografouro.Size = new System.Drawing.Size(369, 30);
+            this.txtLografouro.Size = new System.Drawing.Size(369, 26);
             this.txtLografouro.TabIndex = 12;
             // 
             // lblLogradouro
@@ -580,7 +583,7 @@ namespace LojaABC
             this.lblLogradouro.Location = new System.Drawing.Point(8, 55);
             this.lblLogradouro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLogradouro.Name = "lblLogradouro";
-            this.lblLogradouro.Size = new System.Drawing.Size(112, 25);
+            this.lblLogradouro.Size = new System.Drawing.Size(91, 20);
             this.lblLogradouro.TabIndex = 0;
             this.lblLogradouro.Text = "Logradouro";
             // 
@@ -599,6 +602,7 @@ namespace LojaABC
             this.Name = "frmFuncionarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LojaABC - frmFuncionários";
+            this.Load += new System.EventHandler(this.frmFuncionarios_Load);
             this.gpbDadosPessoais.ResumeLayout(false);
             this.gpbDadosPessoais.PerformLayout();
             this.gpbSexo.ResumeLayout(false);
