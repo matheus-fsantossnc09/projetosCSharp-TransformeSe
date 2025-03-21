@@ -103,6 +103,10 @@ namespace LojaABC
             mskCelular.Clear();
             gpbSexo.Text = "";
 
+            rbtFeminino.Enabled = false;
+            rbtMasculino.Enabled = false;
+            rbtNaoDesejoInformar.Enabled = false;
+
             txtLografouro.Clear();
             mskCEP.Clear();
             txtNumero.Clear();
