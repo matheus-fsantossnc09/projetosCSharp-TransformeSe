@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\",
+  "WorkspaceRootPath": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E18A4F4A-5220-47E0-81DF-0853561F22A6}|LojaABC\\LojaABC.csproj|c:\\users\\mathe\\documents\\visual studio 2022\\projetoscsharp-transformese\\lojaabc\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E18A4F4A-5220-47E0-81DF-0853561F22A6}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.fsantos72\\documents\\visual studio 2022\\projetoscsharp-transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E18A4F4A-5220-47E0-81DF-0853561F22A6}|LojaABC\\LojaABC.csproj|C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\lojaabc\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18A4F4A-5220-47E0-81DF-0853561F22A6}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.fsantos72\\documents\\visual studio 2022\\projetoscsharp-transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E18A4F4A-5220-47E0-81DF-0853561F22A6}|LojaABC\\LojaABC.csproj|C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E18A4F4A-5220-47E0-81DF-0853561F22A6}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18A4F4A-5220-47E0-81DF-0853561F22A6}|LojaABC\\LojaABC.csproj|C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18A4F4A-5220-47E0-81DF-0853561F22A6}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18A4F4A-5220-47E0-81DF-0853561F22A6}|LojaABC\\LojaABC.csproj|C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\lojaabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18A4F4A-5220-47E0-81DF-0853561F22A6}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.fsantos72\\documents\\visual studio 2022\\projetoscsharp-transformese\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,67 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmSplash.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\LojaABC\\frmSplash.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmSplash.cs",
-              "ToolTip": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\LojaABC\\frmSplash.cs",
-              "RelativeToolTip": "LojaABC\\frmSplash.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\Program.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Program.cs",
+              "ToolTip": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\Program.cs",
+              "RelativeToolTip": "Calculadora\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:34:52.07Z",
+              "WhenOpened": "2025-03-21T19:58:44.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCalculadora.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\frmCalculadora.cs",
+              "RelativeToolTip": "Calculadora\\frmCalculadora.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T19:58:17.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmSplash.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\LojaABC\\frmSplash.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmSplash.cs",
-              "ToolTip": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\LojaABC\\frmSplash.cs [Design]",
-              "RelativeToolTip": "LojaABC\\frmSplash.cs [Design]",
+              "Title": "frmCalculadora.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\frmCalculadora.cs [Design]",
+              "RelativeToolTip": "Calculadora\\frmCalculadora.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:34:49.261Z",
+              "WhenOpened": "2025-03-21T19:44:17.44Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmFuncionarios.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\LojaABC\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\LojaABC\\frmFuncionarios.cs",
-              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAUwKEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T01:40:14.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmFuncionarios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\LojaABC\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\LojaABC\\frmFuncionarios.cs [Design]",
-              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T01:39:32.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\LojaABC\\Program.cs",
-              "RelativeDocumentMoniker": "LojaABC\\Program.cs",
-              "ToolTip": "C:\\Users\\mathe\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\LojaABC\\Program.cs",
-              "RelativeToolTip": "LojaABC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T00:47:19.812Z"
             }
           ]
         }

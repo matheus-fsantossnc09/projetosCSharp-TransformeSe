@@ -37,7 +37,7 @@ namespace LojaABC
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
             frmPesquisarFuncionarios abrir = new frmPesquisarFuncionarios();
-            abrir.Show();
+            abrir.ShowDialog();
             this.Hide();
         }
 
@@ -121,6 +121,7 @@ namespace LojaABC
             btnLimpar.Enabled = true;
 
             btnNovo.Enabled = false;
+            txtNome.Focus();
         }
 
         private void btnNovo_Click(object sender, EventArgs e)
@@ -161,6 +162,8 @@ namespace LojaABC
                     MessageBoxIcon.Exclamation,
                     MessageBoxDefaultButton.Button1);
                 desabilitadarCampos();
+                btnNovo.Focus();
+
             }
             
             

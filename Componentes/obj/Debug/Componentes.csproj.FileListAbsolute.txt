@@ -1,0 +1,10 @@
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\Componentes\bin\Debug\Componentes.exe.config
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\Componentes\bin\Debug\Componentes.exe
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\Componentes\bin\Debug\Componentes.pdb
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\Componentes\obj\Debug\Componentes.csproj.AssemblyReference.cache
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\Componentes\obj\Debug\Componentes.Properties.Resources.resources
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\Componentes\obj\Debug\Componentes.csproj.GenerateResource.cache
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\Componentes\obj\Debug\Componentes.csproj.CoreCompileInputs.cache
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\Componentes\obj\Debug\Componentes.exe
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\Componentes\obj\Debug\Componentes.pdb
+C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\Componentes\obj\Debug\Componentes.frmComponentes.resources
