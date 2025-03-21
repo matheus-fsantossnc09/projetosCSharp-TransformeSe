@@ -34,6 +34,7 @@ namespace LojaABC
                 pgbSplash.Value = pgbSplash.Value + 10;
                 lblNumero.Text = pgbSplash.Value.ToString() + "%";
                
+
             }
             else
             {
