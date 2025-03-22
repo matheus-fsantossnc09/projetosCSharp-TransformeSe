@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.fsantos72\\documents\\visual studio 2022\\projetoscsharp-transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.fsantos72\\documents\\visual studio 2022\\projetoscsharp-transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.fsantos72\\documents\\visual studio 2022\\projetoscsharp-transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEFE4AA2-2C32-496D-871F-0A52E8A28FC1}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.fsantos72\\documents\\visual studio 2022\\projetoscsharp-transformese\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -39,25 +39,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmCalculadora.cs",
               "DocumentMoniker": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\frmCalculadora.cs",
               "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\frmCalculadora.cs*",
-              "RelativeToolTip": "Calculadora\\frmCalculadora.cs*",
-              "ViewState": "AgIAACIAAAAAAAAAAAAUwDcAAAA3AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\frmCalculadora.cs",
+              "RelativeToolTip": "Calculadora\\frmCalculadora.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T19:58:17.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmCalculadora.cs [Design]",
               "DocumentMoniker": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\frmCalculadora.cs",
               "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\frmCalculadora.cs [Design]*",
-              "RelativeToolTip": "Calculadora\\frmCalculadora.cs [Design]*",
+              "ToolTip": "C:\\Users\\matheus.fsantos72\\Documents\\Visual Studio 2022\\projetosCSharp-TransformeSe\\Calculadora\\frmCalculadora.cs [Design]",
+              "RelativeToolTip": "Calculadora\\frmCalculadora.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T19:44:17.44Z",
               "EditorCaption": " [Design]"
