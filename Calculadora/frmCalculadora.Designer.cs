@@ -36,10 +36,10 @@
             this.txt_Resposta = new System.Windows.Forms.TextBox();
             this.lbl_Resposta = new System.Windows.Forms.Label();
             this.gpbOperacao = new System.Windows.Forms.GroupBox();
-            this.rdb_Soma = new System.Windows.Forms.RadioButton();
-            this.rdb_Subtracao = new System.Windows.Forms.RadioButton();
-            this.rdb_Multiplicacao = new System.Windows.Forms.RadioButton();
             this.rdb_Divisao = new System.Windows.Forms.RadioButton();
+            this.rdb_Multiplicacao = new System.Windows.Forms.RadioButton();
+            this.rdb_Subtracao = new System.Windows.Forms.RadioButton();
+            this.rdb_Soma = new System.Windows.Forms.RadioButton();
             this.btn_Calcular = new System.Windows.Forms.Button();
             this.btn_Limpar = new System.Windows.Forms.Button();
             this.btn_Sair = new System.Windows.Forms.Button();
@@ -115,27 +115,15 @@
             this.gpbOperacao.TabStop = false;
             this.gpbOperacao.Text = "Operacões";
             // 
-            // rdb_Soma
+            // rdb_Divisao
             // 
-            this.rdb_Soma.AutoSize = true;
-            this.rdb_Soma.Location = new System.Drawing.Point(6, 19);
-            this.rdb_Soma.Name = "rdb_Soma";
-            this.rdb_Soma.Size = new System.Drawing.Size(69, 24);
-            this.rdb_Soma.TabIndex = 0;
-            this.rdb_Soma.TabStop = true;
-            this.rdb_Soma.Text = "Soma";
-            this.rdb_Soma.UseVisualStyleBackColor = true;
-            // 
-            // rdb_Subtracao
-            // 
-            this.rdb_Subtracao.AutoSize = true;
-            this.rdb_Subtracao.Location = new System.Drawing.Point(6, 58);
-            this.rdb_Subtracao.Name = "rdb_Subtracao";
-            this.rdb_Subtracao.Size = new System.Drawing.Size(101, 24);
-            this.rdb_Subtracao.TabIndex = 1;
-            this.rdb_Subtracao.TabStop = true;
-            this.rdb_Subtracao.Text = "Subtração";
-            this.rdb_Subtracao.UseVisualStyleBackColor = true;
+            this.rdb_Divisao.AutoSize = true;
+            this.rdb_Divisao.Location = new System.Drawing.Point(6, 128);
+            this.rdb_Divisao.Name = "rdb_Divisao";
+            this.rdb_Divisao.Size = new System.Drawing.Size(78, 24);
+            this.rdb_Divisao.TabIndex = 3;
+            this.rdb_Divisao.Text = "Divisão";
+            this.rdb_Divisao.UseVisualStyleBackColor = true;
             // 
             // rdb_Multiplicacao
             // 
@@ -144,20 +132,28 @@
             this.rdb_Multiplicacao.Name = "rdb_Multiplicacao";
             this.rdb_Multiplicacao.Size = new System.Drawing.Size(118, 24);
             this.rdb_Multiplicacao.TabIndex = 2;
-            this.rdb_Multiplicacao.TabStop = true;
             this.rdb_Multiplicacao.Text = "Multiplicação";
             this.rdb_Multiplicacao.UseVisualStyleBackColor = true;
             // 
-            // rdb_Divisao
+            // rdb_Subtracao
             // 
-            this.rdb_Divisao.AutoSize = true;
-            this.rdb_Divisao.Location = new System.Drawing.Point(6, 128);
-            this.rdb_Divisao.Name = "rdb_Divisao";
-            this.rdb_Divisao.Size = new System.Drawing.Size(78, 24);
-            this.rdb_Divisao.TabIndex = 3;
-            this.rdb_Divisao.TabStop = true;
-            this.rdb_Divisao.Text = "Divisão";
-            this.rdb_Divisao.UseVisualStyleBackColor = true;
+            this.rdb_Subtracao.AutoSize = true;
+            this.rdb_Subtracao.Location = new System.Drawing.Point(6, 58);
+            this.rdb_Subtracao.Name = "rdb_Subtracao";
+            this.rdb_Subtracao.Size = new System.Drawing.Size(101, 24);
+            this.rdb_Subtracao.TabIndex = 1;
+            this.rdb_Subtracao.Text = "Subtração";
+            this.rdb_Subtracao.UseVisualStyleBackColor = true;
+            // 
+            // rdb_Soma
+            // 
+            this.rdb_Soma.AutoSize = true;
+            this.rdb_Soma.Location = new System.Drawing.Point(6, 19);
+            this.rdb_Soma.Name = "rdb_Soma";
+            this.rdb_Soma.Size = new System.Drawing.Size(69, 24);
+            this.rdb_Soma.TabIndex = 0;
+            this.rdb_Soma.Text = "Soma";
+            this.rdb_Soma.UseVisualStyleBackColor = true;
             // 
             // btn_Calcular
             // 
@@ -170,6 +166,7 @@
             this.btn_Calcular.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Calcular.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Calcular.UseVisualStyleBackColor = true;
+            this.btn_Calcular.Click += new System.EventHandler(this.btn_Calcular_Click);
             // 
             // btn_Limpar
             // 
@@ -213,7 +210,6 @@
             this.Controls.Add(this.lbl_Num2);
             this.Controls.Add(this.lbl_Num1);
             this.Name = "frmCalculadora";
-            this.Text = "frmCalculadora";
             this.Load += new System.EventHandler(this.frmCalculadora_Load);
             this.gpbOperacao.ResumeLayout(false);
             this.gpbOperacao.PerformLayout();

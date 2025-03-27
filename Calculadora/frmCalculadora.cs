@@ -55,5 +55,80 @@ namespace Calculadora
             int MenuCount = GetMenuItemCount(hMenu) - 1;
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
         }
+
+        private void btn_Calcular_Click(object sender, EventArgs e)
+        {
+            //declarando as variáveis
+            double num1, num2, resultado = 0;
+
+            try
+            {
+                // inicializar as variáveis
+                num1 = Convert.ToDouble(txt_Num1.Text);
+                num2 = Convert.ToDouble(txt_Num2.Text);
+
+                //criando a estrutura de decisão
+
+                if (rdb_Soma.Checked == false && rdb_Subtracao.Checked == false &&
+                    rdb_Multiplicacao.Checked == false && rdb_Divisao.Checked == false)
+                {
+                    MessageBox.Show("Por favor insirir um operador.",
+                   "Messagem do sistema",
+                   MessageBoxButtons.OK,
+                   MessageBoxIcon.Error,
+                   MessageBoxDefaultButton.Button1);
+                    LimparCampos();
+                }
+                else
+                {
+
+                    if (rdb_Soma.Checked)
+                    {
+                        resultado = num1 + num2;
+
+                    }
+                    if (rdb_Subtracao.Checked)
+                    {
+                        resultado = num1 - num2;
+                    }
+                    if (rdb_Multiplicacao.Checked)
+                    {
+                        resultado = num1 * num2;
+                    }
+                    if (rdb_Divisao.Checked)
+                    {
+
+                        if (num2 == 0)
+                        {
+                            MessageBox.Show("Impossível dividir por zero",
+                                "menasgem do sisitema",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error,
+                                MessageBoxDefaultButton.Button1);
+                            LimparCampos();
+
+                        }
+                        else
+                        {
+                            resultado = num1 / num2;
+                        }
+                    }
+                }
+
+                txt_Resposta.Text = Convert.ToString(resultado);
+            }
+            catch (Exception)
+            {
+               
+                MessageBox.Show("Por favor insirir valores válidos.",
+                    "Messagem do sistema",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1);
+                LimparCampos();
+                
+            }
+          
+        }
     }
 }
