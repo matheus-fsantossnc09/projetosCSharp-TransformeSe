@@ -46,52 +46,58 @@
             // 
             // dtp_DataFolha
             // 
-            this.dtp_DataFolha.Location = new System.Drawing.Point(32, 83);
+            this.dtp_DataFolha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_DataFolha.Location = new System.Drawing.Point(43, 86);
             this.dtp_DataFolha.Name = "dtp_DataFolha";
-            this.dtp_DataFolha.Size = new System.Drawing.Size(214, 20);
+            this.dtp_DataFolha.Size = new System.Drawing.Size(266, 22);
             this.dtp_DataFolha.TabIndex = 0;
             // 
             // lbl_Salario
             // 
             this.lbl_Salario.AutoSize = true;
-            this.lbl_Salario.Location = new System.Drawing.Point(29, 131);
+            this.lbl_Salario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Salario.Location = new System.Drawing.Point(40, 131);
             this.lbl_Salario.Name = "lbl_Salario";
-            this.lbl_Salario.Size = new System.Drawing.Size(39, 13);
+            this.lbl_Salario.Size = new System.Drawing.Size(50, 16);
             this.lbl_Salario.TabIndex = 1;
             this.lbl_Salario.Text = "Salário";
             // 
             // txt_Salario
             // 
-            this.txt_Salario.Location = new System.Drawing.Point(32, 147);
+            this.txt_Salario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Salario.Location = new System.Drawing.Point(43, 147);
             this.txt_Salario.Name = "txt_Salario";
-            this.txt_Salario.Size = new System.Drawing.Size(219, 20);
+            this.txt_Salario.Size = new System.Drawing.Size(219, 22);
             this.txt_Salario.TabIndex = 2;
             // 
             // ckb_PlanoSaude
             // 
             this.ckb_PlanoSaude.AutoSize = true;
-            this.ckb_PlanoSaude.Location = new System.Drawing.Point(32, 207);
+            this.ckb_PlanoSaude.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckb_PlanoSaude.Location = new System.Drawing.Point(43, 190);
             this.ckb_PlanoSaude.Name = "ckb_PlanoSaude";
-            this.ckb_PlanoSaude.Size = new System.Drawing.Size(102, 17);
+            this.ckb_PlanoSaude.Size = new System.Drawing.Size(123, 20);
             this.ckb_PlanoSaude.TabIndex = 3;
             this.ckb_PlanoSaude.Text = "Plano de Saúde";
             this.ckb_PlanoSaude.UseVisualStyleBackColor = true;
             // 
             // cbb_ClubeLazer
             // 
+            this.cbb_ClubeLazer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_ClubeLazer.FormattingEnabled = true;
             this.cbb_ClubeLazer.Items.AddRange(new object[] {
             "Clube A",
             "Clube B",
             "Clube C"});
-            this.cbb_ClubeLazer.Location = new System.Drawing.Point(32, 289);
+            this.cbb_ClubeLazer.Location = new System.Drawing.Point(43, 246);
             this.cbb_ClubeLazer.Name = "cbb_ClubeLazer";
-            this.cbb_ClubeLazer.Size = new System.Drawing.Size(219, 21);
+            this.cbb_ClubeLazer.Size = new System.Drawing.Size(219, 24);
             this.cbb_ClubeLazer.TabIndex = 4;
             // 
             // btn_Calcular
             // 
-            this.btn_Calcular.Location = new System.Drawing.Point(487, 12);
+            this.btn_Calcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Calcular.Location = new System.Drawing.Point(498, 12);
             this.btn_Calcular.Name = "btn_Calcular";
             this.btn_Calcular.Size = new System.Drawing.Size(168, 43);
             this.btn_Calcular.TabIndex = 5;
@@ -101,67 +107,75 @@
             // 
             // txt_SalarioFolha
             // 
-            this.txt_SalarioFolha.Location = new System.Drawing.Point(487, 107);
+            this.txt_SalarioFolha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_SalarioFolha.Location = new System.Drawing.Point(522, 107);
             this.txt_SalarioFolha.Name = "txt_SalarioFolha";
-            this.txt_SalarioFolha.Size = new System.Drawing.Size(219, 20);
+            this.txt_SalarioFolha.Size = new System.Drawing.Size(219, 22);
             this.txt_SalarioFolha.TabIndex = 7;
             // 
             // lbl_SalarioFolha
             // 
             this.lbl_SalarioFolha.AutoSize = true;
-            this.lbl_SalarioFolha.Location = new System.Drawing.Point(387, 107);
+            this.lbl_SalarioFolha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_SalarioFolha.Location = new System.Drawing.Point(398, 107);
             this.lbl_SalarioFolha.Name = "lbl_SalarioFolha";
-            this.lbl_SalarioFolha.Size = new System.Drawing.Size(68, 13);
+            this.lbl_SalarioFolha.Size = new System.Drawing.Size(87, 16);
             this.lbl_SalarioFolha.TabIndex = 6;
             this.lbl_SalarioFolha.Text = "Salário Folha";
             // 
             // txt_ImpostoRenda
             // 
-            this.txt_ImpostoRenda.Location = new System.Drawing.Point(487, 145);
+            this.txt_ImpostoRenda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_ImpostoRenda.Location = new System.Drawing.Point(522, 145);
             this.txt_ImpostoRenda.Name = "txt_ImpostoRenda";
-            this.txt_ImpostoRenda.Size = new System.Drawing.Size(219, 20);
+            this.txt_ImpostoRenda.Size = new System.Drawing.Size(219, 22);
             this.txt_ImpostoRenda.TabIndex = 9;
             // 
             // lbl_ImpostoRenda
             // 
             this.lbl_ImpostoRenda.AutoSize = true;
-            this.lbl_ImpostoRenda.Location = new System.Drawing.Point(387, 148);
+            this.lbl_ImpostoRenda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ImpostoRenda.Location = new System.Drawing.Point(398, 148);
             this.lbl_ImpostoRenda.Name = "lbl_ImpostoRenda";
-            this.lbl_ImpostoRenda.Size = new System.Drawing.Size(94, 13);
+            this.lbl_ImpostoRenda.Size = new System.Drawing.Size(118, 16);
             this.lbl_ImpostoRenda.TabIndex = 8;
             this.lbl_ImpostoRenda.Text = "Imposto de Renda";
             // 
             // txt_SalarioLiquido
             // 
-            this.txt_SalarioLiquido.Location = new System.Drawing.Point(487, 183);
+            this.txt_SalarioLiquido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_SalarioLiquido.Location = new System.Drawing.Point(522, 184);
             this.txt_SalarioLiquido.Name = "txt_SalarioLiquido";
-            this.txt_SalarioLiquido.Size = new System.Drawing.Size(219, 20);
+            this.txt_SalarioLiquido.Size = new System.Drawing.Size(219, 22);
             this.txt_SalarioLiquido.TabIndex = 11;
             // 
             // lbl_SalarioLiquido
             // 
             this.lbl_SalarioLiquido.AutoSize = true;
-            this.lbl_SalarioLiquido.Location = new System.Drawing.Point(387, 190);
+            this.lbl_SalarioLiquido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_SalarioLiquido.Location = new System.Drawing.Point(398, 190);
             this.lbl_SalarioLiquido.Name = "lbl_SalarioLiquido";
-            this.lbl_SalarioLiquido.Size = new System.Drawing.Size(76, 13);
+            this.lbl_SalarioLiquido.Size = new System.Drawing.Size(97, 16);
             this.lbl_SalarioLiquido.TabIndex = 10;
             this.lbl_SalarioLiquido.Text = "Salário Liquido";
             // 
             // lbl_DataFolha
             // 
             this.lbl_DataFolha.AutoSize = true;
-            this.lbl_DataFolha.Location = new System.Drawing.Point(29, 67);
+            this.lbl_DataFolha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_DataFolha.Location = new System.Drawing.Point(40, 67);
             this.lbl_DataFolha.Name = "lbl_DataFolha";
-            this.lbl_DataFolha.Size = new System.Drawing.Size(74, 13);
+            this.lbl_DataFolha.Size = new System.Drawing.Size(92, 16);
             this.lbl_DataFolha.TabIndex = 12;
             this.lbl_DataFolha.Text = "Data da Folha";
             // 
             // lbl_Clubelazer
             // 
             this.lbl_Clubelazer.AutoSize = true;
-            this.lbl_Clubelazer.Location = new System.Drawing.Point(29, 273);
+            this.lbl_Clubelazer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Clubelazer.Location = new System.Drawing.Point(40, 230);
             this.lbl_Clubelazer.Name = "lbl_Clubelazer";
-            this.lbl_Clubelazer.Size = new System.Drawing.Size(74, 13);
+            this.lbl_Clubelazer.Size = new System.Drawing.Size(93, 16);
             this.lbl_Clubelazer.TabIndex = 13;
             this.lbl_Clubelazer.Text = "Clube de lazer";
             // 
