@@ -31,16 +31,13 @@ namespace Componentes
             
         }
 
-        private void txtNome_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
 
         private void ckbLivros_CheckedChanged(object sender, EventArgs e)
         {
             if (ckbLivros.Checked)
             {
                 ltbListarProdutos.Items.Add("Livros");
+              
             }
             else
             {
@@ -82,6 +79,16 @@ namespace Componentes
             {
                 ltbListarProdutos.Items.RemoveAt(0);
             }
+        }
+
+        private void pcbImagens_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void btnCarregar_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

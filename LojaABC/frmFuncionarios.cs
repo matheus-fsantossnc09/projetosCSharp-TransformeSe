@@ -26,12 +26,25 @@ namespace LojaABC
             InitializeComponent();
             desabilitadarCampos();
         }
+        public frmFuncionarios(string descricao)
+        {
+            InitializeComponent();
+            desabilitadarCampos();
+            txtNome.Text = descricao;
+        }
+        public frmFuncionarios(int codigo)
+        {
+            InitializeComponent();
+            desabilitadarCampos();
+            txtCodigo.Text = codigo.ToString();
+        }
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
             frmMenuPrincipal voltar = new frmMenuPrincipal();
             voltar.Show();
             this.Hide();
+           
         }
 
         private void btnPesquisar_Click(object sender, EventArgs e)
@@ -137,15 +150,15 @@ namespace LojaABC
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             if (txtNome.Text.Equals("") ||
-                txtEmail.Text.Equals("")||
-                mskCPF.Text.Equals("   .   .   -")||
-                mskCelular.Text.Equals("     -")||
-                txtLografouro.Text.Equals("")||
-                mskCEP.Text.Equals("")||
-                txtNumero.Text.Equals("")||
-                txtComplemento.Text.Equals("")||
-                txtCidade.Text.Equals("")||
-                txtEstado.Text.Equals("")||
+                txtEmail.Text.Equals("") ||
+                mskCPF.Text.Equals("   .   .   -") ||
+                mskCelular.Text.Equals("     -") ||
+                txtLografouro.Text.Equals("") ||
+                mskCEP.Text.Equals("") ||
+                txtNumero.Text.Equals("") ||
+                txtComplemento.Text.Equals("") ||
+                txtCidade.Text.Equals("") ||
+                txtEstado.Text.Equals("") ||
                 cbbUF.Text.Equals(""))
             {
                 MessageBox.Show("Favor preencha tudo !!",
@@ -165,8 +178,8 @@ namespace LojaABC
                 btnNovo.Focus();
 
             }
-            
-            
+
+
         }
     }
 }

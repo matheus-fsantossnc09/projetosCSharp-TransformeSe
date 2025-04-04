@@ -30,8 +30,21 @@ namespace LojaABC
         {
             rdbCodigo.Checked = false;
             rdbNome.Checked = false;
+            btnLimpar.Enabled = false;
+            btnPesquisar.Enabled = false;
+            txtDescricao.Enabled = false;
             txtDescricao.Clear();
             ltbPesquisar.Items.Clear();
+            txtDescricao.Focus();
+        }
+        public void limparCamposPesquisar()
+        {
+            rdbCodigo.Checked = false;
+            rdbNome.Checked = false;
+            btnLimpar.Enabled = false;
+            btnPesquisar.Enabled = false;
+            txtDescricao.Enabled = false;
+            txtDescricao.Clear();
             txtDescricao.Focus();
         }
         public void desabilitarCampos()
@@ -56,9 +69,46 @@ namespace LojaABC
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtDescricao.Text))
+            {
+                MessageBox.Show("Por favor insira um número ou um nome",
+                    "Messagem do sistema",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
             ltbPesquisar.Items.Clear();
             ltbPesquisar.Items.Add(txtDescricao.Text);
-           
+            limparCamposPesquisar();
+
+        }
+
+        private void rdbCodigo_CheckedChanged(object sender, EventArgs e)
+        {
+            habilitarCampos();
+        }
+
+
+        private void rdbNome_CheckedChanged(object sender, EventArgs e)
+        {
+            habilitarCampos();
+        }
+        public void habilitarCampos()
+        {
+            txtDescricao.Enabled = true;
+            btnLimpar.Enabled = true;
+            btnPesquisar.Enabled = true;
+            txtDescricao.Focus();
+        }
+       
+
+        private void ltbPesquisar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            string descricao = ltbPesquisar.SelectedItem.ToString();
+
+            frmFuncionarios abrir = new frmFuncionarios(descricao);
+            abrir.Show();
+            this.Hide();
         }
     }
 }
