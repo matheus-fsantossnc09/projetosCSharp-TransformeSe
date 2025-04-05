@@ -20,3 +20,14 @@ C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-Transform
 C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\projetosCSharp-TransformeSe\Controle de Fluxo\obj\Debug\Controle de Fluxo.csproj.CoreCompileInputs.cache
 C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\projetosCSharp-TransformeSe\Controle de Fluxo\obj\Debug\Controle de Fluxo.exe
 C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\projetosCSharp-TransformeSe\Controle de Fluxo\obj\Debug\Controle de Fluxo.pdb
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\bin\Debug\Controle de Fluxo.exe.config
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\bin\Debug\Controle de Fluxo.exe
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\bin\Debug\Controle de Fluxo.pdb
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\obj\Debug\Controle de Fluxo.csproj.AssemblyReference.cache
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\obj\Debug\Controle_de_Fluxo.Form1.resources
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\obj\Debug\Controle_de_Fluxo.frmFluxoCaixa.resources
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\obj\Debug\Controle_de_Fluxo.Properties.Resources.resources
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\obj\Debug\Controle de Fluxo.csproj.GenerateResource.cache
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\obj\Debug\Controle de Fluxo.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\obj\Debug\Controle de Fluxo.exe
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Controle de Fluxo\obj\Debug\Controle de Fluxo.pdb

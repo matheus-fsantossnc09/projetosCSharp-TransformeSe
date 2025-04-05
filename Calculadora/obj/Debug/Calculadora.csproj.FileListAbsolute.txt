@@ -18,3 +18,13 @@ C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-Transform
 C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\projetosCSharp-TransformeSe\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\projetosCSharp-TransformeSe\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\matheus.fsantos72\Documents\Visual Studio 2022\projetosCSharp-TransformeSe\projetosCSharp-TransformeSe\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Calculadora\obj\Debug\Calculadora.frmCalculadora.resources
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\mathe\Documents\Visual Studio 2022\projetosCSharp-TransformeSe- o meu\Calculadora\obj\Debug\Calculadora.pdb

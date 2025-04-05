@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmComponentes));
             this.gpbComponentes = new System.Windows.Forms.GroupBox();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnCarregar = new System.Windows.Forms.Button();
             this.pcbImagens = new System.Windows.Forms.PictureBox();
             this.ckbBanana = new System.Windows.Forms.CheckBox();
             this.ckbMesa = new System.Windows.Forms.CheckBox();
@@ -42,9 +45,6 @@
             this.lbl_ListarProdutos = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
-            this.btnCarregar = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.btnSair = new System.Windows.Forms.Button();
             this.gpbComponentes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbImagens)).BeginInit();
             this.SuspendLayout();
@@ -74,120 +74,25 @@
             this.gpbComponentes.TabStop = false;
             this.gpbComponentes.Text = "Componentes";
             // 
-            // pcbImagens
+            // btnSair
             // 
-            this.pcbImagens.Location = new System.Drawing.Point(255, 237);
-            this.pcbImagens.Name = "pcbImagens";
-            this.pcbImagens.Size = new System.Drawing.Size(322, 126);
-            this.pcbImagens.TabIndex = 8;
-            this.pcbImagens.TabStop = false;
-            this.pcbImagens.Click += new System.EventHandler(this.pcbImagens_Click);
+            this.btnSair.Location = new System.Drawing.Point(451, 490);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(126, 41);
+            this.btnSair.TabIndex = 11;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // ckbBanana
+            // btnLimpar
             // 
-            this.ckbBanana.AutoSize = true;
-            this.ckbBanana.Location = new System.Drawing.Point(44, 342);
-            this.ckbBanana.Name = "ckbBanana";
-            this.ckbBanana.Size = new System.Drawing.Size(77, 22);
-            this.ckbBanana.TabIndex = 7;
-            this.ckbBanana.Text = "Banana";
-            this.ckbBanana.UseVisualStyleBackColor = true;
-            this.ckbBanana.CheckedChanged += new System.EventHandler(this.ckbBanana_CheckedChanged);
-            // 
-            // ckbMesa
-            // 
-            this.ckbMesa.AutoSize = true;
-            this.ckbMesa.Location = new System.Drawing.Point(44, 314);
-            this.ckbMesa.Name = "ckbMesa";
-            this.ckbMesa.Size = new System.Drawing.Size(64, 22);
-            this.ckbMesa.TabIndex = 6;
-            this.ckbMesa.Text = "Mesa";
-            this.ckbMesa.UseVisualStyleBackColor = true;
-            this.ckbMesa.CheckedChanged += new System.EventHandler(this.ckbMesa_CheckedChanged);
-            // 
-            // ckbComputador
-            // 
-            this.ckbComputador.AutoSize = true;
-            this.ckbComputador.Location = new System.Drawing.Point(44, 286);
-            this.ckbComputador.Name = "ckbComputador";
-            this.ckbComputador.Size = new System.Drawing.Size(110, 22);
-            this.ckbComputador.TabIndex = 5;
-            this.ckbComputador.Text = "Computador";
-            this.ckbComputador.UseVisualStyleBackColor = true;
-            this.ckbComputador.CheckedChanged += new System.EventHandler(this.ckbComputador_CheckedChanged);
-            // 
-            // lblEscolha
-            // 
-            this.lblEscolha.AutoSize = true;
-            this.lblEscolha.Location = new System.Drawing.Point(41, 237);
-            this.lblEscolha.Name = "lblEscolha";
-            this.lblEscolha.Size = new System.Drawing.Size(62, 18);
-            this.lblEscolha.TabIndex = 7;
-            this.lblEscolha.Text = "Escolha";
-            // 
-            // ckbLivros
-            // 
-            this.ckbLivros.AutoSize = true;
-            this.ckbLivros.Location = new System.Drawing.Point(44, 258);
-            this.ckbLivros.Name = "ckbLivros";
-            this.ckbLivros.Size = new System.Drawing.Size(67, 22);
-            this.ckbLivros.TabIndex = 4;
-            this.ckbLivros.Text = "Livros";
-            this.ckbLivros.UseVisualStyleBackColor = true;
-            this.ckbLivros.CheckedChanged += new System.EventHandler(this.ckbLivros_CheckedChanged);
-            // 
-            // cbbListaNome
-            // 
-            this.cbbListaNome.FormattingEnabled = true;
-            this.cbbListaNome.Location = new System.Drawing.Point(44, 174);
-            this.cbbListaNome.Name = "cbbListaNome";
-            this.cbbListaNome.Size = new System.Drawing.Size(189, 26);
-            this.cbbListaNome.TabIndex = 2;
-            // 
-            // lblListarNome
-            // 
-            this.lblListarNome.AutoSize = true;
-            this.lblListarNome.Location = new System.Drawing.Point(41, 153);
-            this.lblListarNome.Name = "lblListarNome";
-            this.lblListarNome.Size = new System.Drawing.Size(89, 18);
-            this.lblListarNome.TabIndex = 4;
-            this.lblListarNome.Text = "Listar Nome";
-            // 
-            // ltbListarProdutos
-            // 
-            this.ltbListarProdutos.FormattingEnabled = true;
-            this.ltbListarProdutos.ItemHeight = 18;
-            this.ltbListarProdutos.Location = new System.Drawing.Point(255, 86);
-            this.ltbListarProdutos.Name = "ltbListarProdutos";
-            this.ltbListarProdutos.Size = new System.Drawing.Size(322, 130);
-            this.ltbListarProdutos.TabIndex = 3;
-            // 
-            // lbl_ListarProdutos
-            // 
-            this.lbl_ListarProdutos.AutoSize = true;
-            this.lbl_ListarProdutos.Location = new System.Drawing.Point(256, 65);
-            this.lbl_ListarProdutos.Name = "lbl_ListarProdutos";
-            this.lbl_ListarProdutos.Size = new System.Drawing.Size(109, 18);
-            this.lbl_ListarProdutos.TabIndex = 2;
-            this.lbl_ListarProdutos.Text = "Listar Produtos";
-            // 
-            // txtNome
-            // 
-            this.txtNome.Location = new System.Drawing.Point(44, 86);
-            this.txtNome.MaxLength = 30;
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(189, 24);
-            this.txtNome.TabIndex = 1;
-            this.txtNome.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNome_KeyDown);
-            // 
-            // lblNome
-            // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(41, 65);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(49, 18);
-            this.lblNome.TabIndex = 0;
-            this.lblNome.Text = "Nome";
+            this.btnLimpar.Location = new System.Drawing.Point(451, 440);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(126, 41);
+            this.btnLimpar.TabIndex = 10;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnCarregar
             // 
@@ -199,23 +104,120 @@
             this.btnCarregar.UseVisualStyleBackColor = true;
             this.btnCarregar.Click += new System.EventHandler(this.btnCarregar_Click);
             // 
-            // btnLimpar
+            // pcbImagens
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(451, 440);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(126, 41);
-            this.btnLimpar.TabIndex = 10;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.pcbImagens.Location = new System.Drawing.Point(255, 237);
+            this.pcbImagens.Name = "pcbImagens";
+            this.pcbImagens.Size = new System.Drawing.Size(322, 126);
+            this.pcbImagens.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbImagens.TabIndex = 8;
+            this.pcbImagens.TabStop = false;
             // 
-            // btnSair
+            // ckbBanana
             // 
-            this.btnSair.Location = new System.Drawing.Point(451, 490);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(126, 41);
-            this.btnSair.TabIndex = 11;
-            this.btnSair.Text = "Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.ckbBanana.AutoSize = true;
+            this.ckbBanana.Location = new System.Drawing.Point(44, 342);
+            this.ckbBanana.Name = "ckbBanana";
+            this.ckbBanana.Size = new System.Drawing.Size(96, 28);
+            this.ckbBanana.TabIndex = 7;
+            this.ckbBanana.Text = "Banana";
+            this.ckbBanana.UseVisualStyleBackColor = true;
+            this.ckbBanana.CheckedChanged += new System.EventHandler(this.ckbBanana_CheckedChanged);
+            // 
+            // ckbMesa
+            // 
+            this.ckbMesa.AutoSize = true;
+            this.ckbMesa.Location = new System.Drawing.Point(44, 314);
+            this.ckbMesa.Name = "ckbMesa";
+            this.ckbMesa.Size = new System.Drawing.Size(78, 28);
+            this.ckbMesa.TabIndex = 6;
+            this.ckbMesa.Text = "Mesa";
+            this.ckbMesa.UseVisualStyleBackColor = true;
+            this.ckbMesa.CheckedChanged += new System.EventHandler(this.ckbMesa_CheckedChanged);
+            // 
+            // ckbComputador
+            // 
+            this.ckbComputador.AutoSize = true;
+            this.ckbComputador.Location = new System.Drawing.Point(44, 286);
+            this.ckbComputador.Name = "ckbComputador";
+            this.ckbComputador.Size = new System.Drawing.Size(136, 28);
+            this.ckbComputador.TabIndex = 5;
+            this.ckbComputador.Text = "Computador";
+            this.ckbComputador.UseVisualStyleBackColor = true;
+            this.ckbComputador.CheckedChanged += new System.EventHandler(this.ckbComputador_CheckedChanged);
+            // 
+            // lblEscolha
+            // 
+            this.lblEscolha.AutoSize = true;
+            this.lblEscolha.Location = new System.Drawing.Point(41, 237);
+            this.lblEscolha.Name = "lblEscolha";
+            this.lblEscolha.Size = new System.Drawing.Size(78, 24);
+            this.lblEscolha.TabIndex = 7;
+            this.lblEscolha.Text = "Escolha";
+            // 
+            // ckbLivros
+            // 
+            this.ckbLivros.AutoSize = true;
+            this.ckbLivros.Location = new System.Drawing.Point(44, 258);
+            this.ckbLivros.Name = "ckbLivros";
+            this.ckbLivros.Size = new System.Drawing.Size(81, 28);
+            this.ckbLivros.TabIndex = 4;
+            this.ckbLivros.Text = "Livros";
+            this.ckbLivros.UseVisualStyleBackColor = true;
+            this.ckbLivros.CheckedChanged += new System.EventHandler(this.ckbLivros_CheckedChanged);
+            // 
+            // cbbListaNome
+            // 
+            this.cbbListaNome.FormattingEnabled = true;
+            this.cbbListaNome.Location = new System.Drawing.Point(44, 174);
+            this.cbbListaNome.Name = "cbbListaNome";
+            this.cbbListaNome.Size = new System.Drawing.Size(189, 32);
+            this.cbbListaNome.TabIndex = 2;
+            // 
+            // lblListarNome
+            // 
+            this.lblListarNome.AutoSize = true;
+            this.lblListarNome.Location = new System.Drawing.Point(41, 153);
+            this.lblListarNome.Name = "lblListarNome";
+            this.lblListarNome.Size = new System.Drawing.Size(110, 24);
+            this.lblListarNome.TabIndex = 4;
+            this.lblListarNome.Text = "Listar Nome";
+            // 
+            // ltbListarProdutos
+            // 
+            this.ltbListarProdutos.FormattingEnabled = true;
+            this.ltbListarProdutos.ItemHeight = 24;
+            this.ltbListarProdutos.Location = new System.Drawing.Point(255, 86);
+            this.ltbListarProdutos.Name = "ltbListarProdutos";
+            this.ltbListarProdutos.Size = new System.Drawing.Size(322, 124);
+            this.ltbListarProdutos.TabIndex = 3;
+            // 
+            // lbl_ListarProdutos
+            // 
+            this.lbl_ListarProdutos.AutoSize = true;
+            this.lbl_ListarProdutos.Location = new System.Drawing.Point(256, 65);
+            this.lbl_ListarProdutos.Name = "lbl_ListarProdutos";
+            this.lbl_ListarProdutos.Size = new System.Drawing.Size(133, 24);
+            this.lbl_ListarProdutos.TabIndex = 2;
+            this.lbl_ListarProdutos.Text = "Listar Produtos";
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(44, 86);
+            this.txtNome.MaxLength = 30;
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(189, 29);
+            this.txtNome.TabIndex = 1;
+            this.txtNome.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNome_KeyDown);
+            // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = true;
+            this.lblNome.Location = new System.Drawing.Point(41, 65);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(62, 24);
+            this.lblNome.TabIndex = 0;
+            this.lblNome.Text = "Nome";
             // 
             // frmComponentes
             // 

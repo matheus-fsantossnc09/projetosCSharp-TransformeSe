@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using MySql.Data.MySqlClient;
 
 namespace LojaABC
 {
@@ -25,18 +26,14 @@ namespace LojaABC
         {
             InitializeComponent();
             desabilitadarCampos();
+
         }
         public frmFuncionarios(string descricao)
         {
             InitializeComponent();
             desabilitadarCampos();
             txtNome.Text = descricao;
-        }
-        public frmFuncionarios(int codigo)
-        {
-            InitializeComponent();
-            desabilitadarCampos();
-            txtCodigo.Text = codigo.ToString();
+            habilitadoCampospesquisar();
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
@@ -44,7 +41,7 @@ namespace LojaABC
             frmMenuPrincipal voltar = new frmMenuPrincipal();
             voltar.Show();
             this.Hide();
-           
+
         }
 
         private void btnPesquisar_Click(object sender, EventArgs e)
@@ -84,6 +81,9 @@ namespace LojaABC
             btnCadastrar.Enabled = false;
             btnLimpar.Enabled = false;
         }
+
+
+
         private void habilitadoCampos()
         {
             txtNome.Enabled = true;
@@ -105,6 +105,29 @@ namespace LojaABC
             btnAlterar.Enabled = false;
             btnExcluir.Enabled = false;
             btnCadastrar.Enabled = true;
+            btnLimpar.Enabled = true;
+        }
+        private void habilitadoCampospesquisar()
+        {
+            txtNome.Enabled = true;
+            txtEmail.Enabled = true;
+            mskCPF.Enabled = true;
+            dtpDataNascimento.Enabled = true;
+            mskCelular.Enabled = true;
+            gpbSexo.Enabled = true;
+
+            txtLografouro.Enabled = true;
+            mskCEP.Enabled = true;
+            txtNumero.Enabled = true;
+            txtComplemento.Enabled = true;
+            txtCidade.Enabled = true;
+            txtEstado.Enabled = true;
+            cbbUF.Enabled = true;
+
+            btnNovo.Enabled = false;
+            btnAlterar.Enabled = true;
+            btnExcluir.Enabled = true;
+            btnCadastrar.Enabled = false;
             btnLimpar.Enabled = true;
         }
         private void limpandoCampos()
@@ -180,6 +203,20 @@ namespace LojaABC
             }
 
 
+        }
+
+        private void btnCarregar_Click(object sender, EventArgs e)
+        {
+            Conectado.obterConexao();
+            MessageBox.Show("Conexão aberta",
+                "Messagem do sistema",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
+            Conectado.fechaConexao();
+            MessageBox.Show("Conexão fechada",
+                "Messagem do sistema",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
         }
     }
 }

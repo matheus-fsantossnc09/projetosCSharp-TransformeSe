@@ -20,15 +20,15 @@ namespace Componentes
 
         private void txtNome_KeyDown(object sender, KeyEventArgs e)
         {
-            
-                if (e.KeyCode == Keys.Enter)
-                {
-                    cbbListaNome.Items.Add(txtNome.Text);
-                    txtNome.Clear();
-                    txtNome.Focus();
 
-                }
-            
+            if (e.KeyCode == Keys.Enter)
+            {
+                cbbListaNome.Items.Add(txtNome.Text);
+                txtNome.Clear();
+                txtNome.Focus();
+
+            }
+
         }
 
 
@@ -37,7 +37,8 @@ namespace Componentes
             if (ckbLivros.Checked)
             {
                 ltbListarProdutos.Items.Add("Livros");
-              
+                pcbImagens.Load(@".\imagens\Livros.png");
+
             }
             else
             {
@@ -50,6 +51,7 @@ namespace Componentes
             if (ckbComputador.Checked)
             {
                 ltbListarProdutos.Items.Add("Computador");
+                pcbImagens.Load(@".\imagens\Computador.png");
             }
             else
             {
@@ -62,6 +64,7 @@ namespace Componentes
             if (ckbMesa.Checked)
             {
                 ltbListarProdutos.Items.Add("Mesa");
+                pcbImagens.Load(@".\imagens\Mesa.png");
             }
             else
             {
@@ -74,6 +77,7 @@ namespace Componentes
             if (ckbBanana.Checked)
             {
                 ltbListarProdutos.Items.Add("Banana");
+                pcbImagens.Load(@".\imagens\Banana.png");
             }
             else
             {
@@ -81,14 +85,27 @@ namespace Componentes
             }
         }
 
-        private void pcbImagens_Click(object sender, EventArgs e)
-        {
-          
-        }
-
         private void btnCarregar_Click(object sender, EventArgs e)
         {
-           
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Title = "Selecione um imagem";
+            ofd.Filter = "Imagens|*.jpg;*.jpeg;*.png;*.bmp|Todos os arquivos|*.*";
+
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                pcbImagens.ImageLocation = ofd.FileName;
+                pcbImagens.Load();
+            }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            pcbImagens.Image = null;
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
