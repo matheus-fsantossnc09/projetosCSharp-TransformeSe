@@ -10,7 +10,7 @@ namespace LojaABC
 {
     internal class Conectado
     {
-        private static string stringConectado = "Server=localhost;port=3306;Database=dblojaabc;Uid=lojaabc;Pwd=123456";
+        private static string stringConectado = "Server=localhost;port=3306;Database=dbTransforme;Uid=root;Pwd=''";
         private static MySqlConnection conec = null;
 
         public static MySqlConnection obterConexao()
