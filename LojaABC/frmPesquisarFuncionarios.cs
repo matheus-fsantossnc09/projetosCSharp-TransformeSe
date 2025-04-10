@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using MySql.Data.MySqlClient;
 
 namespace LojaABC
 {
@@ -25,6 +26,7 @@ namespace LojaABC
         {
             InitializeComponent();
             desabilitarCampos();
+
         }
         public void limparCampos()
         {
@@ -66,21 +68,63 @@ namespace LojaABC
         {
             limparCampos();
         }
+        // criando o método para pesquisar por código
+        public void pesquisarCodigo(int codigo)
+        {
+            MySqlCommand comm = new MySqlCommand();
+            comm.CommandText = "select nome from tbFuncionarios where codFunc = @codFunc;";
+            comm.CommandType = CommandType.Text;
+
+            comm.Parameters.Clear();
+            comm.Parameters.Add("@codFunc", MySqlDbType.Int32).Value = codigo;
+            comm.Connection = Conectado.obterConexao();
+
+            MySqlDataReader DR;
+            DR = comm.ExecuteReader();
+            DR.Read();
+
+            ltbPesquisar.Items.Add(DR.GetString(0));
+
+            Conectado.fechaConexao();
+        }
+        public void pesquisarNome(string descricao)
+        {
+            MySqlCommand comm = new MySqlCommand();
+            comm.CommandText = "select nome from tbFuncionarios where nome like '%"+descricao+"%';";
+            comm.CommandType = CommandType.Text;
+
+            comm.Parameters.Clear();
+            comm.Parameters.Add("@nome",MySqlDbType.VarChar,100).Value = descricao;
+
+            comm.Connection = Conectado.obterConexao();
+            MySqlDataReader DR;
+            DR = comm.ExecuteReader();
+            while(DR.Read())
+            {
+                ltbPesquisar.Items.Add(DR.GetString(0));
+            }
+
+            Conectado.fechaConexao();
+        }
+
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtDescricao.Text))
+           
+            /* ltbPesquisar.Items.Clear();
+             ltbPesquisar.Items.Add(txtDescricao.Text);
+             limparCamposPesquisar();*/
+            if(rdbCodigo.Checked)
             {
-                MessageBox.Show("Por favor insira um número ou um nome",
-                    "Messagem do sistema",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Error);
+                pesquisarCodigo(Convert.ToInt32(txtDescricao.Text));
             }
-            ltbPesquisar.Items.Clear();
-            ltbPesquisar.Items.Add(txtDescricao.Text);
-            limparCamposPesquisar();
+            if (rdbNome.Checked)
+            {
+                pesquisarNome(txtDescricao.Text);
+            }
 
         }
+
 
         private void rdbCodigo_CheckedChanged(object sender, EventArgs e)
         {
